@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgb(248, 216, 221);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-section{
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    background-color: rgba(245, 140, 114, 0.911);
+    /* text-align: center;  */
+    margin-bottom: 10px;
+    display: flex;
+}
+
+#balance p{
+    padding-bottom: 2px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#balance h2{
+    margin-top: -20px;
+    font-size: 30px;
+}
+
+#bottom-section{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#top{
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+}
+
+#top h3{
+    /* font-size: 20px; */
+}
+
+#middle{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    /* border: 1px solid blue; */
+}
+
+#bottom{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    /* border: 1px solid green; */
+    display: flex;
+}
+
+
+.circle {
+    position: absolute;
+    width: 30px; /* Adjust the diameter of the circles as needed */
+    height: 30px; /* Adjust the diameter of the circles as needed */
+    background-color: #282829; 
+    border-radius: 50%;
+}
+
+.circle1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle2 {
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: transparent; 
+    border: 1px solid white;
+}
+
+#logo {
+    position: relative;
+    width: 50px; /* Adjust the width of the container as needed */
+    height: 50px; /* Adjust the height of the container as needed */
+    margin-top: 20px;
+}
+
+#total p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#total h3{
+    margin-top: -20px;
+}
+
+#percentage p{
+    margin-top: 20px;
+}
+
+#percentage h4{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-top: -20px;
+}
